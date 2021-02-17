@@ -11,7 +11,8 @@ body {
 
 h1
 h2
-h3 {
+h3
+h4 {
     font-weight: 500;
 }
 
@@ -239,4 +240,34 @@ section.info {
     margin-bottom: 40px;
 }
 
+/* INFO SECTION 2 -----------------------------------------*/
+.info {
+    position: relative;
+}
 
+.box1 img {
+    width: 450px;
+    height: 400px;
+}
+
+.box2 {
+    position: absolute;
+    top: 10px;
+    left: 700px;
+}
+
+.box2 h3 {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #808080;
+}
+
+.box2 h4 {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #5989bd;
+    cursor: pointer;
+}
+
+/* FOOTER -----------------------------------------*/
