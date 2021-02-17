@@ -163,3 +163,38 @@ section.banner {
     text-align: left;
     margin-bottom: 40px;
 }
+
+/* MIDDLE AD ----------------------------------------------*/
+
+.middle-ad {
+    
+    height: 150px;
+    background: #e6e6e6;
+}
+
+.ad-box {
+    text-align: center;
+}
+
+.ad-box  {
+    padding-top: 40px;
+}
+
+.ad-box h2 {
+    padding-bottom: 10px;
+}
+
+.ad-box h3 {
+    color: #808080;
+}
+
+/* COLUMNS SECTION ----------------------------------------*/
+
+section.info {
+    width: 1200px;
+    height: 450px;
+    background: whitesmoke;
+}
+
+
+
