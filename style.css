@@ -195,14 +195,11 @@ section.info {
     font-size: 16px;
     width: 1200px;
     height: 450px;
-   
-    
 }
 
 .col {
     width: 33%;
     text-align: center;
-    
 }
 
 .col-pic {
@@ -220,12 +217,26 @@ section.info {
     color: #808080;
 }
 
+/* HR LINE SETTINGS */
 .col hr {
     width: 80px;
     margin-top: 50px;
     margin-left: 150px;
 }
 
+#hr-mid {
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
 
+#hr-left {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#hr-right {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 
