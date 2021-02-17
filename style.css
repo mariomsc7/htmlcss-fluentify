@@ -271,3 +271,39 @@ section.info {
 }
 
 /* FOOTER -----------------------------------------*/
+
+footer {
+    position: relative;
+    height: 150px;
+    padding-top: 50px;
+    background-color: #e6e6e6;
+}
+
+.left-struttura {
+    width: 60%;
+}
+
+.footer-list li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+.footer-list li a:not(.btn) {
+    color: #808080;
+}
+
+.footer-list:first-child {
+    color: #808080;
+}
+
+.help {
+    position: fixed;
+}
+
+.help div {
+    color: white;
+    background: #7cbb01;
+    border-color: transparent;
+}
