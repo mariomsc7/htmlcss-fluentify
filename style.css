@@ -191,10 +191,41 @@ section.banner {
 /* COLUMNS SECTION ----------------------------------------*/
 
 section.info {
+    margin-top: 50px;
+    font-size: 16px;
     width: 1200px;
     height: 450px;
-    background: whitesmoke;
+   
+    
 }
+
+.col {
+    width: 33%;
+    text-align: center;
+    
+}
+
+.col-pic {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.col h2 {
+    color: #7cbb01;
+}
+
+.col h3 {
+    font-size: 14px;
+    color: #808080;
+}
+
+.col hr {
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
 
 
 
