@@ -39,3 +39,19 @@ h3 {
     background-color: aqua;
     text-transform: uppercase;
 }
+
+.headerbox .logo {
+    width: 15%;
+    background: yellow
+}
+
+.headerbox .nav-left {
+    width: 45%;
+    background: blue;
+}
+
+.headerbox .nav-right {
+    width: 40%;
+    text-align: right;
+    background: green;
+}
