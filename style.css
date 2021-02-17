@@ -1,4 +1,4 @@
-/* GENERAL------------------------------------------------- */
+/* GENERAL-------------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -15,13 +15,14 @@ h3 {
     font-weight: 500;
 }
 
-/* UTILITIES ---------------------------------------------- */
+/* UTILITIES ----------------------------------------------*/
 .box {
     width: 1200px;
     margin: 0 auto;
     display: block;
 }
 
+/* FLOAT */
 .clearfix::after {
     content: '';
     display: table;
@@ -32,6 +33,7 @@ h3 {
     float: left;
 }
 
+/* BUTTONS */
 .btn {
     display: inline-block;
     min-width: 100px;
@@ -42,6 +44,20 @@ h3 {
     color: white;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.btn.green-btn {
+    background: #7cbb01;
+    border-color: transparent;
+}
+
+.btn.big-btn {
+    padding: 20px;
+}
+
+/* COLUMN WIDTH */
+.w-50 {
+    width: 50%;
 }
 
 /* HEADER -------------------------------------------------*/
@@ -114,7 +130,36 @@ h3 {
     line-height: 12px;
 }
 
-.btn.greenbtn {
-    background: #7cbb01;
-    border-color: transparent;
+
+
+/* MAIN ---------------------------------------------------*/
+
+/* BANNER -------------------------------------------------*/
+
+section.banner {
+    height: 500px;
+    background: #0d325a;
+    background-image: url(./img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 120% 110%;
+}
+
+.banner .box {
+    position: relative;
+    height: 100%;
+}
+
+.banner .banner-content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner .banner-content h1 {
+    font-size: 48px;
+    color: white;
+    text-align: left;
+    margin-bottom: 40px;
 }
