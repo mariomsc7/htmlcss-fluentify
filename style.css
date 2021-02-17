@@ -1,0 +1,41 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1
+h2
+h3 {
+    font-weight: 500;
+}
+
+/* UTILITIES */
+.box {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+/* HEADER */
+
+.headerbox {
+    line-height: 100px;
+    background-color: aqua;
+    text-transform: uppercase;
+}
