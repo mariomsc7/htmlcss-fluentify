@@ -1,4 +1,4 @@
-/* GENERAL */
+/* GENERAL------------------------------------------------- */
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ h3 {
     font-weight: 500;
 }
 
-/* UTILITIES */
+/* UTILITIES ---------------------------------------------- */
 .box {
     width: 1200px;
     margin: 0 auto;
@@ -32,17 +32,34 @@ h3 {
     float: left;
 }
 
-/* HEADER */
-.headerbox {
-    line-height: 100px;
-    background-color: aqua;
+.btn {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
-/* LOGO */
+/* HEADER -------------------------------------------------*/
+.headerbox {
+    line-height: 100px;
+    background-color: #0d325a;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.headerbox li a:not(.btn):hover {
+    color:green;
+    transition: 0.5s;
+}
+
+/* LOGO ---------------------------------------------------*/
 .headerbox .logo {
     width: 15%;
-    background: yellow
 }
 
 .headerbox .logo img {
@@ -50,24 +67,54 @@ h3 {
 }
 
 
-/* LEFT NAV */
+/* LEFT NAV -----------------------------------------------*/
 .headerbox .nav-left {
-    
-    width: 45%;
-    background: blue;
+     width: 45%;
 }
 
-.headerbox .nav-left ul li {
+.left-menu li {
     display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
-/* RIGHT NAV */
+.left-menu li:last-child{
+    margin: 0;
+}
+
+.left-menu li a {
+    text-decoration: none;
+    color:white;
+}
+
+
+/* RIGHT NAV ----------------------------------------------*/
 .headerbox .nav-right {
     width: 40%;
     text-align: right;
-    background: green;
 }
 
-.headerbox .nav-right ul li {
+.right-menu li {
     display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.right-menu li:first-child {
+    margin: 0;
+}
+
+.right-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right-menu a.btn {
+    line-height: 12px;
+}
+
+.btn.greenbtn {
+    background: #7cbb01;
+    border-color: transparent;
 }
