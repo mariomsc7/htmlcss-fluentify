@@ -33,25 +33,41 @@ h3 {
 }
 
 /* HEADER */
-
 .headerbox {
     line-height: 100px;
     background-color: aqua;
     text-transform: uppercase;
 }
 
+/* LOGO */
 .headerbox .logo {
     width: 15%;
     background: yellow
 }
 
+.headerbox .logo img {
+    vertical-align: middle;
+}
+
+
+/* LEFT NAV */
 .headerbox .nav-left {
+    
     width: 45%;
     background: blue;
 }
 
+.headerbox .nav-left ul li {
+    display: inline-block;
+}
+
+/* RIGHT NAV */
 .headerbox .nav-right {
     width: 40%;
     text-align: right;
     background: green;
+}
+
+.headerbox .nav-right ul li {
+    display: inline-block;
 }
