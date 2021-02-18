@@ -310,7 +310,7 @@ section.info {
 .help {
     position: fixed;
     bottom: 0;
-    right: 15%;
+    right: 5%;
     color: white;
     background: #7cbb01;
     border-color: transparent;
@@ -420,7 +420,38 @@ section.info {
     color: #84c1d4;
 }
 
-/* SECTION 3 ----------------------------------------------*/
+/* SECTION 4 ----------------------------------------------*/
+
+section.mid-box {
+    width: auto;
+    height: 450px;
+    background: #0d325a;
+}
+
+.mini-box2 {
+    padding-top: 100px;
+}
+
+.mini-box2 h2 {
+    width: 350px;
+    color: white;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.mini-box2 p {
+    width: 400px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: #97969b;
+    
+}
+
+
+/* SECTION 4 ----------------------------------------------*/
 
 .info4 {
     height: 600px;
@@ -428,6 +459,7 @@ section.info {
 
 .info4 > h2 {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
