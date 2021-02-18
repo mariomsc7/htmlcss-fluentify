@@ -1,4 +1,5 @@
 /* GENERAL-------------------------------------------------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +18,7 @@ h4 {
 }
 
 /* UTILITIES ----------------------------------------------*/
+
 .box {
     width: 1200px;
     margin: 0 auto;
@@ -24,6 +26,7 @@ h4 {
 }
 
 /* FLOAT */
+
 .clearfix::after {
     content: '';
     display: table;
@@ -35,6 +38,7 @@ h4 {
 }
 
 /* BUTTONS */
+
 .btn {
     display: inline-block;
     min-width: 100px;
@@ -62,6 +66,7 @@ h4 {
 }
 
 /* HEADER -------------------------------------------------*/
+
 .headerbox {
     line-height: 100px;
     background-color: #0d325a;
@@ -75,6 +80,7 @@ h4 {
 }
 
 /* LOGO ---------------------------------------------------*/
+
 .headerbox .logo {
     width: 15%;
 }
@@ -83,8 +89,8 @@ h4 {
     vertical-align: middle;
 }
 
-
 /* LEFT NAV -----------------------------------------------*/
+
 .headerbox .nav-left {
      width: 45%;
 }
@@ -105,8 +111,8 @@ h4 {
     color:white;
 }
 
-
 /* RIGHT NAV ----------------------------------------------*/
+
 .headerbox .nav-right {
     width: 40%;
     text-align: right;
@@ -130,8 +136,6 @@ h4 {
 .right-menu a.btn {
     line-height: 12px;
 }
-
-
 
 /* MAIN ---------------------------------------------------*/
 
@@ -168,16 +172,12 @@ section.banner {
 /* MIDDLE AD ----------------------------------------------*/
 
 .middle-ad {
-    
     height: 150px;
     background: #e6e6e6;
 }
 
 .ad-box {
     text-align: center;
-}
-
-.ad-box  {
     padding-top: 40px;
 }
 
@@ -219,6 +219,7 @@ section.info {
 }
 
 /* HR LINE SETTINGS */
+
 .col hr {
     width: 80px;
     margin-top: 50px;
@@ -241,6 +242,7 @@ section.info {
 }
 
 /* INFO SECTION 2 -----------------------------------------*/
+
 .info {
     position: relative;
 }
@@ -278,15 +280,23 @@ footer {
     background-color: #e6e6e6;
 }
 
-.left-struttura {
-    width: 60%;
-}
-
 .footer-list li {
     display: inline-block;
     list-style: none;
     margin-left: 20px;
-    
+}
+
+.select {
+    width: 200px;
+    display: inline-block;
+}
+
+.select-list {
+    border-bottom: 1px solid;
+}
+
+.select-list a {
+    text-decoration: none;
 }
 
 .footer-list li a:not(.btn) {
@@ -297,20 +307,18 @@ footer {
     color: #808080;
 }
 
-.help div {
-    position: absolute;
-    left: 85%;
+.help {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
     color: white;
     background: #7cbb01;
     border-color: transparent;
-    display: inline-block;
     min-width: 70px;
     padding: 10px 10px 10px 10px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;
-    
 }
