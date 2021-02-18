@@ -262,7 +262,7 @@ section.info {
     font-size: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: #808080;
+    color: #97969b;
 }
 
 .box2 h4 {
@@ -274,7 +274,7 @@ section.info {
 
 /* FOOTER -----------------------------------------*/
 
-footer {
+.footer1 {
     height: 150px;
     padding-top: 50px;
     background-color: #e6e6e6;
@@ -322,3 +322,55 @@ footer {
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;
 }
+
+/* NEW SECTION --------------------------------------------*/
+/* SECTION 1 ----------------------------------------------*/
+
+.info2 {
+    position: relative;
+}
+
+.shakehands img {
+    width: 600px;
+    height: 400px;
+}
+
+.rightbox {
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+
+/* TEXT PART */
+
+.rightbox h2 {
+    padding-bottom: 30px;
+}
+
+.rightbox h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #97969b;
+}
+
+.minibox {
+    position: relative;
+}
+
+.rightbox div h4 {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    font-size: 14px;
+    text-align: center;
+    color: #5989bd;
+}
+
+/* BREAK LINE */
+
+#hr1 {
+    opacity: 0.1;
+}
+
+/* SECTION 2 ----------------------------------------------*/
