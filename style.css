@@ -468,6 +468,8 @@ section.mid-box {
     height: 64px;
 }
 
+/* TEXT SETTINGS */
+
 .info4 .col h3 {
     text-align: center;
     font-size: 18px;
@@ -518,4 +520,31 @@ section.mid-box {
     text-decoration: underline;
     text-align: left;
     cursor: pointer;
+}
+
+/* SECTION 5 ----------------------------------------------*/
+
+section.mid2-box {
+    width: auto;
+    height: 150px;
+    background: #0d325a;
+}
+
+.mini-box3 {
+    padding-top: 50px;
+}
+
+.mini-box3 .faq1 {
+    color: white;
+    font-size: 20px;
+}
+
+.mini-box3 .faq2 {
+    color: orange;
+    font-size: 20px;
+}
+
+.mini-box3 p {
+    color: #97969b;
+    padding-top: 15px;
 }
