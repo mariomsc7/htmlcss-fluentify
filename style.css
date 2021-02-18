@@ -374,3 +374,47 @@ section.info {
 }
 
 /* SECTION 2 ----------------------------------------------*/
+
+.info3 {
+    position: relative;
+}
+
+.info3 > div {
+    text-align: center;
+}
+
+.info3 img {
+    width: 600px;
+    height: 400px;
+}
+
+.underbox {
+    position: absolute;
+    right: 350px;
+    max-width: 500px;
+}
+
+.underbox span {
+    font-size: 25px;
+}
+
+.underbox #h24 {
+    color: #729833;
+}
+
+.class-span {
+    padding-bottom: 20px;
+}
+
+.class-span h4 {
+    color: #97969b;
+    font-weight: 100;
+}
+
+#font1 {
+    font-size: 13px
+}
+
+#how {
+    color: #84c1d4;
+}
