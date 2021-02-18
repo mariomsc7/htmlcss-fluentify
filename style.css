@@ -272,7 +272,7 @@ section.info {
     cursor: pointer;
 }
 
-/* FOOTER -----------------------------------------*/
+/* FOOTER 1 -----------------------------------------*/
 
 .footer1 {
     height: 150px;
@@ -547,4 +547,61 @@ section.mid2-box {
 .mini-box3 p {
     color: #97969b;
     padding-top: 15px;
+}
+
+/* FOOTER -------------------------------------------------*/
+
+footer {
+    background: #17416b;
+    height: 350px;
+    width: auto;
+}
+
+.footer-col2 {
+    padding-top: 50px;
+    padding-left: 60%;
+}
+
+/* COLUMN 1 */
+
+.white-p {
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+    
+}
+
+.footer-col1 p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-col1 p:not(.white-p) {
+    color: #97969b;
+}
+
+/* COLUMN 2 */
+
+
+.second-p {
+    font-size: 20px;
+    padding-top: 25px;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.second-p2 {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: right;
+}
+
+.grey-p1 {
+    color: #97969b;
+    text-align: right;
+    padding-bottom: 10px;
 }
