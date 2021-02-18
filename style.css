@@ -377,6 +377,7 @@ section.info {
 
 .info3 {
     position: relative;
+    height: 700px;
 }
 
 .info3 > div {
@@ -417,4 +418,72 @@ section.info {
 
 #how {
     color: #84c1d4;
+}
+
+/* SECTION 3 ----------------------------------------------*/
+
+.info4 {
+    height: 600px;
+}
+
+.info4 > h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.info4 .col img {
+    width: 64px;
+    height: 64px;
+}
+
+.info4 .col h3 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.info4 .col p {   
+    text-align: center;
+    font-size: 15px;
+}
+
+.info4 .margin-blue p {
+    padding-bottom: 50px;
+    border-bottom: 8px solid #9ac7f0;
+}
+
+.info4 .margin-orange p {
+    padding-bottom: 50px;
+    border-bottom: 8px solid #f5a50f;
+}
+
+.info4 .margin-green p {
+    padding-bottom: 50px;
+    border-bottom: 8px solid #81b411;
+}
+
+.info4 .margin-blue h4 {
+    padding-top: 30px;
+    color: #9ac7f0;
+    text-decoration: underline;
+    text-align: left;
+    cursor: pointer;
+}
+
+.info4 .margin-orange h4 {
+    padding-top: 30px;
+    color: #f5a50f;
+    text-decoration: underline;
+    text-align: left;
+    cursor: pointer;
+}
+
+.info4 .margin-green h4 {
+    padding-top: 30px;
+    color: #81b411;
+    text-decoration: underline;
+    text-align: left;
+    cursor: pointer;
 }
